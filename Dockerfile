@@ -7,3 +7,6 @@ RUN echo "Asia/shanghai" >> /etc/timezone
 RUN go env
 
 RUN go version
+
+WORKDIR $GOPATH/src
+
